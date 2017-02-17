@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Captcha</title>
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+	<script type="text/javascript" src="config.js"></script>
+</head>
+<body>
+<h1>Register</h1>
+<form method="post" action="registerValidation.php">
+	<input type="text" name="name"><br>
+	<input type="text" name="id"><br>
+	<input type="radio" name="gender" value="male">Male<br>
+	<input type="radio" name="gender" value="female">Female<br>
+	<div class="g-recaptcha" data-sitekey="6LeshBUUAAAAAOkHIrxVe2QetErIbIq2Bc5RQPxl"></div><br>
+	<button type="submit">Register</button>
+</form>
+</body>
+</html>
