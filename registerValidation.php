@@ -1,6 +1,6 @@
 <?php 
 	$captcha_response = $_POST['g-recaptcha-response'];
-	$secret_key = "6LeshBUUAAAAAC7SiwFP0M1cW-OfVqxXHza0rXmc";
+	$secret_key = "";
                 if (isset($captcha_response) && $captcha_response) {
 		// echo $captcha_response;
 		$ip = $_SERVER['REMOTE_ADDR'];
